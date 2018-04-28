@@ -57,14 +57,14 @@
         <div class="col-md-4">
             <div class="icon-box-2 with-line">
                 <i class="<?= $theme_config['icon2']; ?>" aria-hidden="true"></i>
-                <h3><?= $theme_config['titre1']; ?></h3>
+                <h3><?= $theme_config['titre2']; ?></h3>
                 <p><?= $theme_config['contenu2']; ?></p>
             </div>
         </div>
         <div class="col-md-4">
             <div class="icon-box-2">
                 <i class="<?= $theme_config['icon3']; ?>" aria-hidden="true"></i>
-                <h3><?= $theme_config['titre1']; ?></h3>
+                <h3><?= $theme_config['titre3']; ?></h3>
                 <p><?= $theme_config['contenu3']; ?></p>
             </div>
         </div>
