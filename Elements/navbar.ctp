@@ -5,7 +5,7 @@
                 <div id="logo">
                     <a href="<?= $this->Html->url('/') ?>">
                         <?php
-                        if(isset($theme_config['logo']) && $theme_config['logo']) {
+                        if(isset($theme_config['logo']) && !empty($theme_config['logo'])) {
                             echo '<img src="'.$theme_config['logo'].'">';
                         }
                         ?>
